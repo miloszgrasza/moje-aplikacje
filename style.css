@@ -1,7 +1,11 @@
+html {
+    height: 100%;
+}
+
 body {
-    background-image: url("blackboard.jpg");
+    background-image: url("blackboard2.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     color: white;
   }
 h1 {
@@ -19,10 +23,18 @@ h3 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
- 
-    
 }
+
+.apps a {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+    .apps a {
+      flex: 100%;
+    }
+  }
 a {
     width: 25%;
     background-color: #83b1b4;
