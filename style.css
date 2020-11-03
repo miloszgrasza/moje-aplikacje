@@ -1,0 +1,39 @@
+body {
+    background-image: url("blackboard.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+  }
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-style: italic;
+}
+h3 {
+    text-align: center;
+}
+.apps {
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+ 
+    
+}
+a {
+    width: 25%;
+    background-color: #83b1b4;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    background-color: lightgreen;
+    transform: scale(1.1);
+  }
