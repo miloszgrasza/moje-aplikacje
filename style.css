@@ -1,5 +1,6 @@
 html {
     height: 100%;
+    width: 100%;
 }
 
 body {
@@ -8,6 +9,7 @@ body {
     background-size: cover;
     color: white;
   }
+ 
 h1 {
     text-align: center;
 }
@@ -36,16 +38,39 @@ h3 {
     }
   }
 a {
-    width: 25%;
-    background-color: #83b1b4;
+    
+    background-color: #rgba(162 202 207 0);
     text-align: center;
     border-radius: 20px;
     padding: 10px;
     text-decoration: none;
-    color: black;
-}
+    color: white;
+    border: 3px solid white;
+} 
 
 a:hover {
-    background-color: lightgreen;
-    transform: scale(1.1);
+    transform: scale(1.2);
+  }
+.applink {
+  width: 25%;
+}
+  h3 {
+    text-align: center;
+  }
+
+  .paragraph-description {
+    font-size: 120%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .pobierz-aplikacje {
+    width: 25%;
+    display: block;
+    margin: auto;
+  }
+  .back {
+    margin-top: 10px;
+    display: block;
+    width: 10%;
   }
